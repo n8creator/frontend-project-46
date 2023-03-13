@@ -1,0 +1,38 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.1.1",
+  "description": "Hexlet's Educational Project #2",
+  "main": "index.js",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n8creator/frontend-project-46.git"
+  },
+  "keywords": [
+    "edu",
+    "js",
+    "cli",
+    "ast",
+    "gendiff"
+  ],
+  "author": "n8creator [Dmitry Volkov]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n8creator/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/n8creator/frontend-project-46#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
