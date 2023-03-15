@@ -5,7 +5,6 @@ export default (difference, format) => {
   switch (format) {
     case 'json': return JSON.stringify(difference);
     case 'plain': return toPlain(difference);
-    case 'stylish': return toStylish(difference);
-    default: throw new Error(`"${format}" is invalid! Use "json", "plain" or "stylish"!`);
+    default: return toStylish(difference);
   }
 };

@@ -7,5 +7,5 @@ export default (firstFile, secondFile, formatter = 'stylish') => {
   const secondFileData = loadData(secondFile);
 
   const difference = getDifference(firstFileData, secondFileData);
-  return getFormatted(difference, formatter.format);
+  return getFormatted(difference, formatter);
 };
