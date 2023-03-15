@@ -16,7 +16,7 @@ export default (diff) => {
       case 'added': return `Property '${name}' was added with value: ${formatValue(prop.value)}`;
       case 'deleted': return `Property '${name}' was removed`;
       case 'changed': return `Property '${name}' was updated. From ${formatValue(prop.oldValue)} to ${formatValue(prop.newValue)}`;
-      case 'haveChildren': return getStrings(prop.children, name);
+      case 'hasChildren': return getStrings(prop.children, name);
       case 'unchanged': return [];
       default: throw new Error(`Plain formatter has gotten wrong status: "${prop.status}"`);
     }
