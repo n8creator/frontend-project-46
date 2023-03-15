@@ -1,1 +1,5 @@
+# System folders & files
 node_modules/
+
+# Temp files / artifacts
+filepath*.json
